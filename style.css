@@ -1,0 +1,72 @@
+body {
+    font-family: Arial;
+    background: linear-gradient(to bottom, #0f0f0f, #1a1a1a);
+    color: #e5e5e5;
+    margin: 0;
+}
+
+header {
+    background: #000;
+    text-align: center;
+    padding: 25px;
+    border-bottom: 2px solid #333;
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding: 20px;
+}
+
+.card {
+    background: #1c1c1c;
+    padding: 18px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.me {
+    width: 130px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.hobby {
+    margin-top: 15px;
+}
+
+.hobby img {
+    width: 100px;
+    border-radius: 8px;
+    margin-right: 5px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 6px;
+}
+
+button {
+    padding: 10px 15px;
+    background: #222;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #555;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #000;
+    margin-top: 20px;
+    border-top: 2px solid #333;
+}
